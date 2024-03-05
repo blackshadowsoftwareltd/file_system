@@ -2,6 +2,7 @@ pub mod config;
 pub mod db;
 pub mod ffi;
 pub mod helpers;
+pub mod models;
 pub mod services;
 
 pub fn add(left: usize, right: usize) -> usize {

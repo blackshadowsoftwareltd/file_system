@@ -1,8 +1,22 @@
 [package]
-name = "file_management"
+name = "file_system"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+# File System
+walkdir = "2"
+notify = "6"
+
+# Error Handling
+anyhow = "1"
+
+# Async
+tokio = { version = "1", features = ["full"] }
+async-trait = "0"
+async-std = "1"
+futures = "0"
+futures-util = "0"
